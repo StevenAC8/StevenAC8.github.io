@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <!-- representa un grupo de ayudas 
+        introductorias o de navegación -->
+        <header>
+            <!--nav proporciona enlaces de navegacion dentro
+            del mismo documento o de otros documentos-->
+            <nav class="navbar">
+                <!-- div define las divisiones del contenido de la pagina -->
+                <div class="logo">
+                    <img src="img/telematica_.png" alt="Telematica">
+                </div>
+                    <ul class="nav-links">
+                    <li><a href="Datos Personales">Datos Personales</a></li>
+                    <li><a href="DatosLaborales">Datos Laborales</a></li>
+                    <li><a href="ProyectosRealizados">Proyectos Realizados</a></li>
+                    <li><a href="Informacioncontacto">Informacion de contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- section lo que hace es que agrupa el contenido -->
+    <section class="Hero">
+       <div class="hero-content">
+            <h1>Bienvenidos a nuestros Sercios de Telematica</h1>
+            <p>Soluciones innvadoras para la comunicacion y transferencia
+            de datos
+            </p>
+        <a class="cta-button" href="Informacioncontacto">Contactenos</a>
+       </div>
+    </section>
+
+        <section class="Datos Personales" id="Datos Personales">
+            <h2>Nuestros Servicios</h2>
+                <div class="lista">
+                    <div class="service">
+                        <img src="img/undraw1.svg" alt="Servicio 1">
+                        <h3>Servicio 1</h3>
+                        <ul>
+                            <li><p>Soporte tecnico computadoras</p></li>
+                            <li><p>Ofimatica</p></li>
+                            <li><p>Cableado Estructurado</p></li>
+                        </ul>
+                    </div>
+                    <div class="service">
+                        <img src="img/undraw2.svg" alt="Servicio 2">
+                        <h3>Servicio 2</h3>
+                        <ul>
+                            <li><p>Soporte tecnico en servidores</p></li>
+                            <li><p>Programacion en C# y javascript</p></li>
+                            <li><p>SQL server</p></li>
+                        </ul>
+                    </div>
+                    <div class="service">
+                        <img src="img/undraw3.svg" alt="Servicio 3">
+                        <h3>Servicio 3</h3>
+                        <ul>
+                            <li><p>Servidores</p></li>
+                            <li><p>Streaming</p></li>
+                            <li><p>Seguridad de Redes</p></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section class="DatosLaborales" id="DatosLaborales">
+            <h3>Nosotros </h3>
+            <p>
+                Somos una empresesa dedicada a compartir nuestros servicios en una amplia
+                variedad de campos, lider en soluciones de telematica con un renombre de exito
+            </p>
+        </section>
+
+        <section class="ProyectosRealizados" id="ProyectosRealizados">
+            <div class="testimonio">
+                <div class="test">
+                    <img src="img/ena.jpeg" alt="Cliente 1">
+                    <h4>Ing.Electronica</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Omnis blanditiis ullam facilis harum beatae adipisci, 
+                         exercitationem accusantium, deleniti culpa temporibus 
+                         ad quae nemo? Commodi eveniet, quaerat hic eos ratione possimus.
+                    </p>
+                </div>
+                <div class="test">
+                    <img src="img/soy ese.jpg" alt="Cliente 2">
+                    <h4>Ing Telematico</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Earum, soluta provident repellat excepturi consectetur
+                         rerum ea officiis iste neque vel nesciunt illo iure 
+                        laudantium voluptatem dolores facere ab. Veniam, omnis.
+                    </p>
+                </div>
+                <div class="test">
+                    <img src="img/gera.jpeg" alt="Cliente3">
+                    <h4>Ing en Sistemas</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Doloremque molestias est cumque distinctio maxime veniam
+                         non neque ea autem similique quisquam aliquid iusto quos 
+                         nisi blanditiis, cum laborum magnam temporibus!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Informacion-de-contacto" id="Informacioncontacto">
+            <h2>contacto</h2>
+            <p>Listos para discutir tus necesidas de telematica</p>
+            <a href="stevencentenoama@gmail.com" class="cta-button">Enviar Correo</a>
+        </br>
+            <h3>Ó</h3>
+            <!-- form controles interactivos para enviar informacion a un servidor web-->
+            <!--  -->
+            <form action="procesar.php" method="post">
+                <h2>Dejanos un mensaje</h2>
+                <div class="group">
+                    <!-- label sirve para mayor claridad y accesibilidad -->
+                    <label for="nombre">nombre</label>
+                    <input type="email" id="nombre" name="nombre" required>
+                </div>
+                <div class="group">
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="group">
+                    <label for="mensaje">mensaje</label>
+                    <!-- textarea reprecenta edicion de multiline de texto sin formato -->
+                    <!-- rows indica que el usario tiene que rellenar con algun valor antes de enviar el formulario -->
+                    <textarea type="mensaje" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar mensaje</button>
+            </form>
+        </section>
+        <section class="footer" id="footer">
+            <p>&copy; 2023 Telematica. Todos los derechos reservados.</p>
+        </section>
+    </body>
+</html>

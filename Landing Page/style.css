@@ -1,0 +1,221 @@
+/* Cuerpo completo */
+body
+{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Establece margen hacia los 4 lados */
+ margin: 0;
+ /*contorno de los bordes*/
+ padding: 0;
+
+}
+header
+{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+/* Seccion de datos */
+.navbar
+{
+    /* Visualizacion interna y externa */
+    display: flex;
+    /* Espaciado entre items */
+    justify-content: center;
+    /* Ancho maximo */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20 px;
+}
+
+a
+{
+color: #fff;
+}
+ /* Seccion del logo */
+.logo img
+{
+    max-width: 150px;
+}
+/* Estilo de la seccion de datos */
+.nav-links
+{
+    /* es como un marcador de lista */
+    list-style: none;
+    display: flex;
+    /* ancho de las lineas de separacion */
+    gap: 20px;
+}
+
+/* Estilo del hero */
+.Hero
+{
+    background-image: url(img/blob-scene-haikei.svg);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+.hero-content h1
+{
+    font-size: 36px;
+    /* Establece el espacio requerido debajo del elemento */
+    margin-bottom: 20px;
+}
+.hero-content p
+{
+    font-size: 18px;
+    /* Establece el espacio requerido debajo del elemento */
+    margin-bottom: 30px;
+}
+/* Seccion de contactenos de la parte hero */
+.cta-button
+{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none ;
+    /* especifica el peso de la letra o el grueso */
+    font-weight: bold;
+    font-size: 16px;
+    /* redondeo de los bordes del recuadro*/
+    border-radius: 5px;
+}
+.cta-button:hover
+{
+    background-color: #dd5500;
+}
+.servicios
+{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.lista
+{
+    
+    display: flex;
+    /* repite y crea espacios a los lados de forma equitativa */
+    justify-content: space-around;
+
+}
+/* Seccion de Datos Personales */
+.service
+{
+    margin: 10px;
+}
+.service img
+{
+    
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+/*Seccion Datos Laborales */
+.DatosLaborales
+{
+    color: #fff;
+    background-image: url(img/blob-scene-haikei.svg);
+    background-size: cover;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+/* Seccion de Proyectos realizados */
+.testimonio
+{
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+.test
+{
+    background-color: #4d7794;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.testimonio img
+{
+    max-width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonio p
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.client
+{
+    font-weight: bolder;
+    color: #333;
+    font-size: 14px;
+}
+/* Estilo de contacto */
+.Informacion-de-contacto
+{
+    background-color: #e7e7d4;
+    padding: 60px 0;
+    text-align: center;
+}
+form
+{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.group
+{
+    text-align: left;
+    margin-bottom: 20px;
+    /* Establece margen derecho del elemento */
+    margin-right: 20px;
+}
+label
+{
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"]
+input[type="email"]
+textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit-button
+{
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.submit-button:hover
+{
+    background-color: #0056b3;
+}
+/* Seccion footer */
+.footer
+{
+    background-color: #333;
+    background-image: url(img/wave.svg);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
